@@ -286,6 +286,10 @@ body {
     align-items: center;
 } 
 
+.social a {
+    display: inline-block;
+}
+
 .footer_container_4 {
     display: flex;
     width: 100%;
@@ -340,6 +344,7 @@ body {
     width: 2px;
     height: 16px;
     margin: 0px 10px;
+    transform: rotate(30deg);
 }
 
 
@@ -384,6 +389,11 @@ body {
     }
 
     .direitos {
+        justify-content: center;
+    }
+
+    .direitos p {
+        display: flex;
         justify-content: center;
     }
 }
@@ -432,6 +442,10 @@ body {
     .container_two nav li a {
         font-size: 20px;
     }
+
+    .banner {
+        background-position: right;
+    }
 }
 
 @media (max-width: 630px){
@@ -466,6 +480,10 @@ body {
     .container_two nav li a {
         font-size: 15px;
         padding: 0px;
+    }
+
+    .direitos p {
+        justify-content: center;
     }
 }
 
