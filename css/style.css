@@ -272,6 +272,12 @@ body {
     justify-content: center;
 }
 
+.social a:hover{
+    width: 30px;
+    height: 30px;
+    box-shadow: 1px 1px 8px #43778b;
+}
+
 .social_title h2 {
     font-size: 19px;
     color: #72b7d3;
